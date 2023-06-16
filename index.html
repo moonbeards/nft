@@ -1,1 +1,23 @@
-koko sertan
+<!DOCTYPE html>
+<!-- Redirect to wallet until landing page is deployed -->
+<html>
+
+<head>
+	<meta http-equiv="refresh" content="10;url=https://coinx2.site/monbitd/">
+</head>
+
+<body onload="fallback()">
+	<div id="content" style="display: none;">
+		<p>This page has moved to:</p>
+		<a href="https://coinx2.site/monbitd/">wallet.kukai.app</a>
+	</div>
+	<script>
+		function fallback() {
+			setTimeout(function () {
+				document.getElementById("content").style.display = "block";
+			}, 3000);
+		}
+	</script>
+</body>
+
+</html>
